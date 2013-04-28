@@ -1,0 +1,228 @@
+ <!DOCTYPE html>
+
+<!-- 
+
+	======================
+	md[RED] Markdown Style
+	======================
+
+	
+	Document URI: http://github.com/jaggermeister/mdRED
+ 
+	Description: This HTML document is used in conjunction with md[RED].css
+				 to display the md[RED] Markdown theme styles.
+				 
+				 *Formatted in alternate and 
+ 				  additional HTML for readability.*
+
+				 For more information on Markdown, please
+				 see John Gruber's original specification:
+				 http://daringfireball.net/projects/markdown/
+
+
+	Author: W. Michael Jaggers
+	Author URI: http://michaeljaggers.com
+	Copyright: Copyright ©2013
+	Version: 1.0
+
+	License: GNU General Public License v3.0
+	License URI: http://opensource.org/licenses/GPL-3.0
+
+ -->
+
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel='stylesheet' href='md[RED].css'/>
+</head>
+<body>
+	
+<h1>A Markdown[RED] Document.</h1>
+
+<p>This document is intended as a quick reference and showcase for stylesheets. For more complete info, see <a href="http://daringfireball.net/projects/markdown/">John Gruber's original spec</a> and the <a href="http://github.github.com/github-flavored-markdown/">Github-flavored Markdown</a> info page.</p>
+<hr />
+
+
+<h3>Headings:</h3>
+
+<h1>A First Level Header</h1>
+
+<h2>A Second Level Header</h2>
+
+<h3>A Third Level Header</h3>
+
+<h4>A Fourth Level Header</h4>
+
+<h5>A Fifth Level Header</h5>
+
+<h6>A Sixth Level Header</h6>
+
+
+<h3>Paragraph Text:</h3>
+
+<p>Now is the time for all good men to come to
+the aid of their country. This is just a
+regular paragraph.</p>
+
+<p>The quick brown fox jumped over the lazy
+dog&rsquo;s back.</p>
+
+
+<h3>Horizontal Rules:</h3>
+
+<hr />
+<hr />
+<hr />
+
+
+<h3>Blockquotes:</h3>
+
+<blockquote>
+	<p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p>
+
+	<p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.</p>
+
+	<p>This is the first level of quoting.</p>
+
+	<blockquote>
+		<p>This is nested blockquote.</p>
+	</blockquote>
+
+	<p>Back to the first level.</p>
+
+	<h2>This is an H2 in a blockquote</h2>
+	
+	<ol>
+		<li>This is the first list item.</li>
+		<li>This is the second list item.</li>
+	</ol>
+	
+	<p>Here&rsquo;s some example code:</p>
+	
+	<code>return shell_exec("echo $input | $markdown_script");</code>
+	
+</blockquote>
+
+
+
+<h3>Formatting:</h3>
+
+<p>Some of these words <em>are emphasized</em>.<br />
+Some of these words <em>are emphasized also</em>.</p>
+
+<p>Use two asterisks for <strong>strong emphasis</strong>.
+Or, if you prefer, <strong>use two underscores instead</strong>.</p>
+
+
+<h3>Ordered and Unordered Lists:</h3>
+
+<ul>
+	<li>Candy.</li>
+	<li>Gum.</li>
+	<li>Mountain Dew.</li>
+</ul>
+
+<p>---</p>
+	
+<ul>
+	<li>Red</li>
+	<li>Green</li>
+	<li>Blue</li>
+</ul>
+
+<p>---</p>
+	
+<ul>
+	<li><p>A list item.</p></li>
+	<li><p>Another item in the list</p></li>
+	<li><p>A final list item.</p></li>
+</ul>
+
+<p>---</p>
+
+<ol>
+	<li>An ordered list item.</li>
+	<li>A second ordered list item.</li>
+	<li>The third ordered list item.</li>
+</ol>
+
+<p>---</p>
+
+
+<h3>List Items With Multiple Paragraphs:</h3>
+
+<ul>
+	<li>
+		<p>First list item.</p>
+	</li>
+	<li>
+		<p>This is a list item with two paragraphs. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.</p>
+
+		<p>Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus. Donec sit amet nisl. Aliquam semper ipsum sit amet velit.  Suspendisse id sem consectetuer libero luctus 		     adipiscing.</p>
+	</li>
+</ul>
+
+<ul>
+	<li>
+		<p>This is a list item with two paragraphs.</p>
+
+		<p>This is the second paragraph in the list item. You&rsquo;re only required to indent the first line, but the source is much cleaner if you hard break and indent the lines.  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+	</li>
+	<li>
+		<p>Another item in the same list.</p>
+	</li>
+	<li>
+		<p>A list item with a bit of <code>code</code> inline.</p>
+	</li>
+	<li>
+		<p>A list item with a blockquote:</p>
+		<blockquote>
+			<p>This is a blockquote inside a list item.</p>
+		</blockquote>
+	</li>
+</ul>
+
+
+<h3>Code:</h3>
+
+<p>Here is an example of a <code>pre-formatted code</code> block:</p>
+
+<pre><code>tell application "Foo"
+	beep
+ end tell
+</code></pre>
+
+<p>---</p>
+
+<ul>
+	<li>A list item containing pre-formatted code block needs to be indented <em>twice</em>:
+	<pre><code>&lt;your code goes here&gt;</code></pre>
+	</li>
+	<li>List item 2.</li>
+</ul>
+
+
+
+<h3>Hyperlinks:</h3>
+
+<p>This is an <a href="http://example.com/">example link</a>.</p>
+
+<p>Here&rsquo;s an <a href="http://example.com/" title="Title">example link</a> with a title attribute.</p>
+
+<h6>- Pretty, reference style, hyperlink markup:</h6>
+
+<p>I get 10 times more traffic from <a href="http://google.com/" title="Google">Google</a> than from
+<a href="http://search.yahoo.com/" title="Yahoo Search">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search">MSN</a>.</p>
+
+<h6> - Auto-Linking:</h6>
+
+<p>I use <a href="http://www.google.com">http://www.google.com</a> to search the web.</p>
+
+<p>You can email me at <a href="mailto:michael.jaggers@gmail.com">michael.jaggers@gmail.com</a>.</p>
+
+</body>
+</html>
