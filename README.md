@@ -1,4 +1,4 @@
-![md[RED]](https://raw.github.com/jaggermeister/mdRED/master/md%5BRED%5D-Logo.png "md[RED] Markdown Style")
+![md[RED]](https://raw.github.com/jaggermeister/mdRED/master/logo.png "md[RED] Markdown Style")
 
 A clean and beautiful Markdown style... accented in **red**.
 
