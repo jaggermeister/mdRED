@@ -17,13 +17,12 @@
  * Author: W. Michael Jaggers
  * Author URI: http://michaeljaggers.com
  * Copyright: Copyright ©2013 W. Michael Jaggers
- * Version: 1.0
+ * Version: 1.1
  * 
  * License: GNU General Public License v3.0 
  * License URI: http://opensource.org/licenses/GPL-3.0
  * 
  */
-
 
 
 
@@ -73,6 +72,7 @@ a, a:visited {
 a:hover, a:active {
 	text-decoration: underline;
 }
+
 
 
 /*
@@ -127,7 +127,6 @@ hr {
 
 
 
-
 /*
 ===================================
 ----------  Code Styles  ----------
@@ -166,6 +165,28 @@ img {
 	vertical-align: middle;
 }
 
+
+
+/*
+===================================
+--------- Table Styles ------------
+=================================== 
+*/
+
+table {
+	border-collapse: collapse;
+	margin: 20px 0 0;
+	padding: 0;
+}
+table tr th, table tr td {
+	border: 1px solid #CCC;
+	text-align: left;
+	margin: 0;
+	padding: 6px 13px;
+}
+table tbody tr:nth-child(2n-1) {
+        background-color: #F8F8F8;
+}
 
 
 
@@ -226,7 +247,6 @@ a::selection {
 ===================================
 */
 
-
 /* ---- Bigger Than A Smartphone ---- */
 @media only screen and (min-width: 480px) {
 	body {
@@ -234,13 +254,15 @@ a::selection {
 	}
 }
 
-
 /* ---- iPad (Portrait) And Larger ---- */
 @media only screen and (min-width: 768px) {
 	body {
 		font-size: 16px;
 	}
 }
+
+
+
 
 
 
